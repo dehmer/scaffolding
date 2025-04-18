@@ -1,0 +1,20 @@
+{
+  "id": "01940b50-7615-4bcb-b606-1e3af889ff29",
+  "name": "library",
+  "version": "0.0.0",
+  "description": "Library template deployable to github.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "webpack"
+  },
+  "keywords": ["library", "template", "webpack", "github"],
+  "author": "horst.dehmer@syncpoint.io",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^9.1.2",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

@@ -1,0 +1,12 @@
+dehmer/01940b50 +webpack +library +umd +npm +prepare +github
+dehmer/0d327abd +electron +svelte +babel +webpack +sass +level
+dehmer/23b9c4e2 +electron +solid +babel +webpack +sass +level
+dehmer/3985c4e1 +electron +react +babel, +webpack, +sass, +level +mocha +c8 +builder
+dehmer/4b2471cf +react +webpack +babel +sass
+dehmer/9ec34c56 : dehmer/aec72907 +ol
+dehmer/aec72907 +svelte +webpack [ex. sveltejs/template-webpack]
+dehmer/bfdbfcb4 +solid +vite
+dehmer/cd581061 +solid +webpack -ts [ex. ryansolid/solid-ts-webpack]
+sveltejs/template +svelte +rollup
+
+$ npx degit <template> <target-directory>

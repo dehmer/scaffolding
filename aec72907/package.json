@@ -1,0 +1,24 @@
+{
+  "name": "svelte-webpack",
+  "version": "0.0.0",
+  "description": "Svelte/Webpack Template",
+  "keywords": [
+    "svelte",
+    "webpack"
+  ],
+  "author": "horst.dehmer@syncpoint.io",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.5",
+    "svelte": "^3.57.0",
+    "svelte-loader": "^3.1.7",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "serve": "webpack serve --static public"
+  }
+}
